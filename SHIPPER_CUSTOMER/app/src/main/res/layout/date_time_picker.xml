@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <DatePicker
+        style="@android:style/Widget.DatePicker"
+        android:datePickerMode="spinner"
+        android:id="@+id/date_picker"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp" />
+
+    <TimePicker
+        android:timePickerMode="spinner"
+        android:id="@+id/time_picker"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <Button
+        style="@style/normal_button"
+        android:id="@+id/date_time_set"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/button_text_confirm_booking" />
+
+
+</LinearLayout>
